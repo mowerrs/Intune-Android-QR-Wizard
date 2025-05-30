@@ -35,10 +35,10 @@ function generateQRCode() {
         var security = document.getElementById("security").value;
         var hidden = document.getElementById("hidden").value;
 
-        exportData['android.app.extra.PROVISIONING_WIFI_SSID'] = ssid;
-        exportData['android.app.extra.PROVISIONING_WIFI_PASSWORD'] = password;
-        exportData['android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE'] = security;
-        exportData['android.app.extra.PROVISIONING_WIFI_HIDDEN'] = hidden === "true";
+        // exportData['android.app.extra.PROVISIONING_WIFI_SSID'] = ssid;
+        // exportData['android.app.extra.PROVISIONING_WIFI_PASSWORD'] = password;
+        // exportData['android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE'] = security;
+        // exportData['android.app.extra.PROVISIONING_WIFI_HIDDEN'] = hidden === "true";
 
         var finalData = JSON.stringify(exportData);
         
